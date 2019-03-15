@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Arrays - Debug ]----------"
-	@cd "Arrays" && "$(MAKE)" -f  "Arrays.mk"
+	@echo "----------Building project:[ Substitution_Cipher - Debug ]----------"
+	@cd "Arrays" && "$(MAKE)" -f  "Substitution_Cipher.mk"
 clean:
-	@echo "----------Cleaning project:[ Arrays - Debug ]----------"
-	@cd "Arrays" && "$(MAKE)" -f  "Arrays.mk" clean
+	@echo "----------Cleaning project:[ Substitution_Cipher - Debug ]----------"
+	@cd "Arrays" && "$(MAKE)" -f  "Substitution_Cipher.mk" clean
