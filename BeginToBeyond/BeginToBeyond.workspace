@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="BeginToBeyond" Database="" Version="10.0.0">
   <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
-  <Project Name="Substitution_Cipher" Path="Arrays/Arrays.project" Active="Yes"/>
+  <Project Name="Substitution_Cipher" Path="Arrays/Arrays.project" Active="No"/>
+  <Project Name="TextTree" Path="TextTree/TextTree.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="Substitution_Cipher" ConfigName="Debug"/>
+      <Project Name="TextTree" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="FirstProgram" ConfigName="Release"/>
       <Project Name="Substitution_Cipher" ConfigName="Release"/>
+      <Project Name="TextTree" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
