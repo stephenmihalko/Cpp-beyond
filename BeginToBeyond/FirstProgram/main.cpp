@@ -4,15 +4,13 @@ using namespace std;
 
 int main()
 {
-    int favNum;
-    std::cout << "Please enter your favorite number: ";
-    std::cin >> favNum;
-    std::cout << "My favorite number is " << favNum << " too!" << std::endl;
+    int favNum {42};
+    int *pFavNum = &favNum;
     
-    
-    string test1 {"ABCDEFG"};
-    string test2 {test1, 0, 0};
-    cout << test2 << endl;
+    cout << favNum << endl;
+    cout << pFavNum << endl;
+    cout << &favNum << endl;
+    cout << *pFavNum << endl;
     
     return 0;
 }

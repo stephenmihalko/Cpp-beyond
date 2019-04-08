@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ TextTree - Debug ]----------"
-	@cd "TextTree" && "$(MAKE)" -f  "TextTree.mk"
+	@echo "----------Building project:[ PointersSectionChallenge - Debug ]----------"
+	@cd "PointersSectionChallenge" && "$(MAKE)" -f  "PointersSectionChallenge.mk"
 clean:
-	@echo "----------Cleaning project:[ TextTree - Debug ]----------"
-	@cd "TextTree" && "$(MAKE)" -f  "TextTree.mk" clean
+	@echo "----------Cleaning project:[ PointersSectionChallenge - Debug ]----------"
+	@cd "PointersSectionChallenge" && "$(MAKE)" -f  "PointersSectionChallenge.mk" clean
